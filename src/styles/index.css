@@ -1,3 +1,28 @@
-/* 
-    General Styles
-*/
+.img{
+    width: 70px;
+    height: 70px;
+}
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 15px;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: gray transparent;
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+  }
+  
+  .card-text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
